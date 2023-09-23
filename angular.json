@@ -48,6 +48,7 @@
                   "maximumError": "4kb"
                 }
               ],
+              "baseHref": "/charts-demo/",
               "outputHashing": "all"
             },
             "development": {
