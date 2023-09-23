@@ -10,7 +10,8 @@ import { ChartListComponent } from './chart-list/chart-list.component';
   declarations: [
     AppComponent,
     ChartComponent,
-    ChartListComponent
+    ChartListComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
