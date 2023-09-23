@@ -8,10 +8,5 @@ import { EChartsOption } from 'echarts';
 })
 export class ChartComponent {
   @Input() chartOption: EChartsOption = <EChartsOption>{};
-  isLoading = true;
-  ngOnChanges(chartOption: EChartsOption) {
-    console.log(chartOption);
-    this.isLoading = false;
-  }
 }
 
